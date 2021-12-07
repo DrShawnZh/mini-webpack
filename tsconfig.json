@@ -1,0 +1,13 @@
+{
+  "include": ["src/**/*", "bin/**/*", "webpack.config.js"],
+  "exclude": ["node_modules/**/*"],
+  "ts-node": {},
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "outDir": "./webpack",
+    "sourceMap": false,
+    "noImplicitAny": false,
+    "allowJs": true
+  },
+}
